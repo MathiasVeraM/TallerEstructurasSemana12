@@ -16,7 +16,14 @@ int main(){
     for(int i=0; i<5;i++){
         printf("Por favor ingrese los datos del %d alumno \n", i+1);
         gets(a1.nombre);
+        gets(a1.direccion);
+        gets(a1.carrera);
+        scanf("%d", &a1.edad);
+        scanf("%f", &a1.promedio);
         puts(a1.nombre);
+        puts(a1.nombre);
+        puts(a1.nombre);
+        printf("%d\n%f",a1.edad, a1.promedio);
     }
     return 0;
 }
