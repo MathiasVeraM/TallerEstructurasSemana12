@@ -14,7 +14,7 @@ int main(){
         float promedio;
     }a1 = {"Mathias", "Cotacachi", "Software", 18, 9.1};
 
-    for(int i=0; i<5;i++){
+    for(int i=0; i<2;i++){
         printf("Por favor ingrese los datos del %d alumno \n", i+1);
         printf("Nombre: ");         gets(a1.nombre);
         printf("Direccion: ");      gets(a1.direccion);
