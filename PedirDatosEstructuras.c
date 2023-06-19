@@ -20,10 +20,11 @@ int main(){
         gets(a1.carrera);
         scanf("%d", &a1.edad);
         scanf("%f", &a1.promedio);
+        printf("\nLos datos ingresados son los siguientes: \n");
         puts(a1.nombre);
-        puts(a1.nombre);
-        puts(a1.nombre);
-        printf("%d\n%f",a1.edad, a1.promedio);
+        puts(a1.direccion);
+        puts(a1.carrera);
+        printf("%d\n%f\n",a1.edad, a1.promedio);
     }
     return 0;
 }
