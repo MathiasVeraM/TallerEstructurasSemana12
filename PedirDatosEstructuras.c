@@ -16,19 +16,15 @@ int main(){
 
     for(int i=0; i<5;i++){
         printf("Por favor ingrese los datos del %d alumno \n", i+1);
-
-        gets(a1.nombre);
-        gets(a1.direccion);
-        gets(a1.carrera);
-        scanf("%d", &a1.edad);
-        scanf("%f", &a1.promedio);
+        printf("Nombre: ");         gets(a1.nombre);
+        printf("Direccion: ");      gets(a1.direccion);
+        printf("Carrera: ");        gets(a1.carrera);
+        printf("Edad: ");           scanf("%d", &a1.edad);
+        printf("Promedio: ");       scanf("%f", &a1.promedio);
 
         printf("\nLos datos ingresados son los siguientes: \n");
 
-        puts(a1.nombre);
-        puts(a1.direccion);
-        puts(a1.carrera);
-        printf("%d\n%f\n",a1.edad, a1.promedio);
+        puts(a1.nombre);         puts(a1.direccion);         puts(a1.carrera);         printf("%d\n%f\n",a1.edad, a1.promedio);
 
         fflush(stdin);
     }
